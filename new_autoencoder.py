@@ -23,7 +23,7 @@ parser.add_argument('--NotMNIST', type=int, default=1,
 					   help='Use NotMnist dataset for testing')
 parser.add_argument('--learning_rate', type=float, default=1e-2,
 					   help='learning rate of model')
-parser.add_argument('--epochs', type=int, default=200,
+parser.add_argument('--epochs', type=int, default=2000,
 					   help='epoch of training')
 parser.add_argument('--batch_size', type=int, default=256,
 					   help='batch size of training')
