@@ -10,7 +10,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 from tensorflow.examples.tutorials.mnist import input_data
 tf.set_random_seed(1)   # set random seed
-from PIL import Image
+#from PIL import Image
 import os
 import argparse
 
