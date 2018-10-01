@@ -15,7 +15,7 @@ import os
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--mode', type=int, default=1,
+parser.add_argument('--mode', type=int, default=0,
 					   help='0 for training, 1 for testing')
 parser.add_argument('--resume', type=bool, default=True,
 					   help='True for resuming the model; False for initialization')
